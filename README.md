@@ -173,21 +173,37 @@ Regression: `canada-multiturn`.
 
 opencode, running the free Ox Alpha model, served as a terminal coding assistant during development. It was used to scaffold the project structure, implement the retrieval, tool-calling, and multi-turn logic, and draft the evaluation cases and runner, with review and iteration by me at every step. One example of an incomplete suggestion: the retrieval design originally supplied only the top-scoring chunk to the model, which produced a partially answered Canada question and an invented summed delivery estimate (BUG-005); the fix added sibling-chunk context from the top document and an explicit rule against combining numbers into new estimates. Separately, an AI assistant (Claude) helped during planning to structure the build sequence and to review this README and the evaluation results against the assignment requirements; it did not access or edit any files in this repository. Neither tool has any role in the running application. At runtime the agent uses only Fireworks deepseek-v4-pro-0813 for generation and Elasticsearch for retrieval.
 
-## 10. Demo
+## 10. 🎥 Demo
 
-The following demo showcases the Aster & Row AI Support Agent in action:
+<div align="center">
 
-- Knowledge-base question with grounded citations
-- Safe order lookup
-- Multi-turn conversation
-- Refusal and human handoff
-- Evaluation and security behavior
+[![Aster & Row — AI Support Agent Demo](https://img.youtube.com/vi/VtzVaS_FhlE/maxresdefault.jpg)](https://youtu.be/VtzVaS_FhlE)
+
+### ▶️ Watch the Aster & Row AI Support Agent Demo
+
+**Click the preview above to watch the complete project demonstration on YouTube.**
+
+</div>
+
+The demo showcases the complete AI support workflow, including:
+
+* 💬 Knowledge-base questions with grounded citations
+* 🔍 RAG-based information retrieval
+* 📦 Safe order status lookup
+* 🔄 Multi-turn conversations
+* 🛡️ Prompt-injection and jailbreak protection
+* 🤝 Deterministic human handoff
+* 📊 Automated evaluation and security testing
+
+**🎬 [Watch the Demo on YouTube](https://youtu.be/VtzVaS_FhlE)**
+
+---
 
 ### 🎥 Demo Video
 
 [▶️ Watch the Aster & Row AI Support Agent Demo](./aster-row-demo.mp4)
 
-<div align="center">
+
 
 **Neha Maurya**
 📧 [mauryaneha2006@gmail.com](mailto:mauryaneha2006@gmail.com)
