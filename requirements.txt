@@ -1,0 +1,7 @@
+elasticsearch>=8.14,<9
+python-dotenv>=1.0
+PyYAML>=6.0
+fastembed>=0.3
+openai>=1.40
+streamlit>=1.37
+pytest>=8.0

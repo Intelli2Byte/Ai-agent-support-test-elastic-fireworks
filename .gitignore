@@ -1,0 +1,25 @@
+# Secrets / local config
+.env
+.llm_cache.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Local runtime output
+traces/
+evaluation/results/*
+!evaluation/results/report-20260824-195144.json
+!evaluation/results/report-20260825-125450.json
+*.log
+
+# Working documents (not part of the submission)
+videoexplain.md
+README2.md
+
+# OS junk
+.DS_Store
+Thumbs.db
