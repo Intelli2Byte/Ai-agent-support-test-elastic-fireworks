@@ -175,9 +175,17 @@ opencode, running the free Ox Alpha model, served as a terminal coding assistant
 
 ## 10. Demo
 
-*A demo GIF/video will be added here: one KB question with citations, one order lookup, one multi-turn exchange, one refusal/handoff, and the evaluation suite running.*
+The following demo showcases the Aster & Row AI Support Agent in action:
 
----
+- Knowledge-base question with grounded citations
+- Safe order lookup
+- Multi-turn conversation
+- Refusal and human handoff
+- Evaluation and security behavior
+
+### 🎥 Demo Video
+
+[▶️ Watch the Aster & Row AI Support Agent Demo](./aster-row-demo.mp4)
 
 <div align="center">
 
